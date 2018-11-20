@@ -1,8 +1,6 @@
 # Build and IDE artifacts
 /bin
 /target
-*.iml
-.idea
 .classpath
 .project
 .settings

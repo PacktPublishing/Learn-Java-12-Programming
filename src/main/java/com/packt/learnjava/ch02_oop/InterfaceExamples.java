@@ -14,7 +14,7 @@ public class InterfaceExamples {
         sc.method2(22);  //returns: "abc"
         sc.method3();       //returns: 42
 
-        System.out.println(SomeInterface1.someMethod());
+        System.out.println(SomeInterface1.someMethod()); //prints: abc
     }
 
     private static class SomeClass implements SomeInterface{
