@@ -20,13 +20,13 @@ public class PrimitiveTypes {
         char x2 = '2';
         System.out.println(x2);  //prints: 2
         x2 = 65;
-        System.out.println(x2);  //prints: A
+        System.out.println(x2);  //prints: C
 
         char y1 = '\u0041';
-        System.out.println(y1);  //prints: A
+        System.out.println(y1);  //prints: C
 
         char y2 = 'A';
-        System.out.println(y2);  //prints: A
+        System.out.println(y2);  //prints: C
         y2 = 50;
         System.out.println(y2);  //prints: 2
 

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InterfaceExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InterfaceExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Final.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Hiding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InstanceOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/HidingProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,64 +38,181 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="8" />
+          <entry key="java" value="24" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="24" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="27" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="222" />
+          <entry key="java" value="3450" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="2" />
-          <entry key="JAVA" value="222" />
+          <entry key="JAVA" value="3450" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InterfaceExamples.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Constructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="16" selection-end-line="17" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="3" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Hiding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/HidingProperty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="2" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Final.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="60" selection-start-line="3" selection-end-line="60" />
+              <folding>
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="e#1306#1307#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/C.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="4" selection-end-line="7" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="4" selection-end-line="7" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InstanceOf.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#2402#2403#0" expanded="true" />
+                <element signature="e#2444#2445#0" expanded="true" />
+                <element signature="e#2477#2478#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
+                <element signature="e#2811#2812#0" expanded="true" />
+                <element signature="e#2847#2848#0" expanded="true" />
+                <element signature="e#2883#2884#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overloading.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>final</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,6 +224,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Constructor.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InterfaceExamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/ObjectFactory1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/ObjectFactory2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overloading.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overriding.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/C.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Hiding.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/HidingProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Final.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InstanceOf.java" />
       </list>
     </option>
   </component>
@@ -192,6 +334,36 @@
               <item name="learnjava" type="462c0819:PsiDirectoryNode" />
               <item name="ch02_oop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterfaceExamples">
+  <component name="RunManager" selected="Application.Polymorphism2">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -235,6 +407,34 @@
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hiding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch02_oop.Hiding" />
+      <module name="learnjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch02_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch02_oop.InstanceOf" />
+      <module name="learnjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch02_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,13 +454,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch01_start.StringClass" />
-      <module name="main" />
+    <configuration name="Overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch02_oop.Overriding" />
+      <module name="learnjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch01_start.*" />
+          <option name="PATTERN" value="com.packt.learnjava.ch02_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polymorphism1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch02_oop.Polymorphism1" />
+      <module name="learnjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch02_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polymorphism2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch02_oop.Polymorphism2" />
+      <module name="learnjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch02_oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +510,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.InterfaceExamples" />
-      <item itemvalue="Application.StringClass" />
+      <item itemvalue="Application.Polymorphism1" />
+      <item itemvalue="Application.InstanceOf" />
+      <item itemvalue="Application.Overriding" />
+      <item itemvalue="Application.Hiding" />
+      <item itemvalue="Application.Polymorphism2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringClass" />
+        <item itemvalue="Application.Polymorphism2" />
+        <item itemvalue="Application.Hiding" />
+        <item itemvalue="Application.Overriding" />
+        <item itemvalue="Application.InstanceOf" />
+        <item itemvalue="Application.Polymorphism1" />
       </list>
     </recent_temporary>
   </component>
@@ -313,24 +549,24 @@
     <frame x="84" y="72" width="1409" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.22823702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.22823702" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Job Explorer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399754" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296433" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003658" side_tool="true" weight="0.3308733" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296433" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49963424" visible="true" weight="0.3308733" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49963424" weight="0.3308733" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3296433" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,27 +578,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/StaticMembers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Varargs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -391,12 +606,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/StaticMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2503">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overriding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="10" lean-forward="true" selection-start-line="8" selection-end-line="10" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InterfaceExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="16" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Overloading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="4" selection-end-line="7" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="4" selection-end-line="7" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Hiding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/hiding/HidingProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="2" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="3" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-820">
+          <caret line="479" column="66" selection-start-line="479" selection-start-column="61" selection-end-line="479" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Final.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="60" selection-start-line="3" selection-end-line="60" />
+          <folding>
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InstanceOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2883#2884#0" expanded="true" />
           </folding>
         </state>
       </provider>
