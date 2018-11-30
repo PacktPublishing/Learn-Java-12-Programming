@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class ReferenceTypes {
     public static void main(String... args){
-        //array1();
-        //array2();
-        //array3();
-        //enumDemo();
+        array1();
+        array2();
+        array3();
+        enumDemo();
         parameter();
         parameter1();
         parameter2();

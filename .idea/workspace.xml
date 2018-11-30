@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java" afterDir="false" />
-    </list>
+    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -95,6 +93,15 @@
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -352,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Framework">
+  <component name="RunManager" selected="Application.ReferenceTypes">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -475,8 +482,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Framework" />
         <item itemvalue="Application.ReferenceTypes" />
+        <item itemvalue="Application.Framework" />
         <item itemvalue="Application.AccessModifiers" />
         <item itemvalue="Application.Polymorphism2" />
         <item itemvalue="Application.Hiding" />
@@ -505,7 +512,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1630" height="979" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.20654912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.20654912" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,7 +528,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010973" side_tool="true" weight="0.3308733" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" visible="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3296433" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
