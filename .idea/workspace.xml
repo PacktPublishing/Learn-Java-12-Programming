@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Throws.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/AccessModifiers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="825">
               <caret line="57" selection-start-line="48" selection-end-line="57" />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="1680">
               <caret line="120" column="31" selection-start-line="115" selection-start-column="8" selection-end-line="126" selection-end-column="9" />
               <folding>
                 <element signature="e#4136#4137#0" expanded="true" />
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Framework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="645">
+              <caret line="43" column="5" selection-start-line="33" selection-start-column="19" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -65,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="540">
               <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,13 +74,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Throws.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
+            <state relative-caret-position="555">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Framework.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Throws.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java" />
       </list>
     </option>
   </component>
@@ -187,6 +201,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,7 +326,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +505,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1630" height="979" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.20403023" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.20654912" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,15 +520,15 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296433" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010973" side_tool="true" weight="0.3308733" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296433" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" visible="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3296433" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -669,64 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/StaticMembers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="120" column="31" selection-start-line="115" selection-start-column="8" selection-end-line="126" selection-end-column="9" />
-          <folding>
-            <element signature="e#4136#4137#0" expanded="true" />
-            <element signature="e#4190#4191#0" expanded="true" />
-            <element signature="e#4252#4253#0" expanded="true" />
-            <element signature="e#4308#4309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/AccessModifiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="57" selection-start-line="48" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Varargs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="3" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Framework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,12 +704,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/AccessModifiers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="57" selection-start-line="48" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="120" column="31" selection-start-line="115" selection-start-column="8" selection-end-line="126" selection-end-column="9" />
+          <folding>
+            <element signature="e#4136#4137#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
+            <element signature="e#4252#4253#0" expanded="true" />
+            <element signature="e#4308#4309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Framework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="5" selection-start-line="33" selection-start-column="19" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Throws.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
+        <state relative-caret-position="555">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/StaticMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
