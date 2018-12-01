@@ -29,6 +29,7 @@ public class ThisAndSuper {
         public void someMethod() {
             System.out.println("Method of C class");
         }
+
         public void anotherMethod() {
             this.someMethod();     //prints: Method of C class
             super.someMethod();    //prints: Method of B class
