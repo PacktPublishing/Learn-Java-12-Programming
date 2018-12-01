@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +20,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="4" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
+            <state relative-caret-position="277">
               <caret line="88" selection-start-line="84" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/Throws.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/CustomExceptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java" />
       </list>
     </option>
   </component>
@@ -265,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TryCatchFinally">
+  <component name="RunManager" selected="Application.ThisAndSuper">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -379,17 +385,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InterfaceExamples" />
       <item itemvalue="Application.AccessModifiers" />
       <item itemvalue="Application.Framework" />
-      <item itemvalue="Application.InterfaceExamples" />
       <item itemvalue="Application.ReferenceTypes" />
       <item itemvalue="Application.ThisAndSuper" />
       <item itemvalue="Application.TryCatchFinally" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TryCatchFinally" />
         <item itemvalue="Application.ThisAndSuper" />
+        <item itemvalue="Application.TryCatchFinally" />
         <item itemvalue="Application.ReferenceTypes" />
         <item itemvalue="Application.Framework" />
         <item itemvalue="Application.AccessModifiers" />
@@ -435,7 +441,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010973" side_tool="true" weight="0.3308733" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" visible="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3296433" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -685,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
+        <state relative-caret-position="277">
           <caret line="88" selection-start-line="84" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -695,8 +701,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="4" selection-end-line="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
