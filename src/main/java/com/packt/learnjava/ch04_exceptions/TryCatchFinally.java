@@ -7,6 +7,7 @@ import java.sql.SQLException;
 
 public class TryCatchFinally {
     public static void main(String... args){
+
     }
 
     private static void method(String s){
@@ -46,6 +47,53 @@ public class TryCatchFinally {
             //Do something
             //The exception was most probably caused by incorrect SQL statement
         }
+    }
+
+    private static void example1() {
+        try {
+            throw null;
+        } catch (RuntimeException ex) {
+            System.out.print("RuntimeException ");
+        } catch (Exception ex) {
+            System.out.print("Exception ");
+        } catch (Error ex) {
+            System.out.print("Error ");
+        } catch (Throwable ex) {
+            System.out.print("Throwable ");
+        } finally {
+            System.out.println("Finally ");
+        }
+    }
+
+    private static void method1() throws Exception {
+            throw null;
+    }
+
+    private static void method2() throws RuntimeException {
+        throw null;
+    }
+
+    private static void method3() throws Throwable {
+        throw null;
+    }
+
+    private static void method4() throws Error {
+        throw null;
+    }
+
+    private static void example2() {
+        //throw new NullPointerException("Hi there!"); //1
+        //throws new Exception("Hi there!");          //2
+        //throw RuntimeException("Hi there!");       //3
+        //throws RuntimeException("Hi there!");     //4
+    }
+
+    private static void example3() {
+        int x = 4;
+        assert (x > 3);    //1
+        //assert (x = 3);  //2
+        assert (x < 4);    //3
+        //assert (x = 4);   //4
     }
 
 }
