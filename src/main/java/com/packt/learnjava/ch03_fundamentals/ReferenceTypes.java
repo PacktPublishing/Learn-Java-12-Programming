@@ -11,7 +11,7 @@ public class ReferenceTypes {
         parameter();
         parameter1();
         parameter2();
-
+        parameter3();
     }
 
     interface C {}
@@ -168,6 +168,12 @@ public class ReferenceTypes {
         obj = new String("Is not changed");
         modifyParameter(obj);
         System.out.println(obj); //prints: Is not changed
+    }
 
+    private static void modifyParameter(int[] arr){ arr[0] = 42; }
+    private static void parameter3(){
+        int[] arr = {1,2,3};
+        modifyParameter(arr);
+        System.out.println(arr[0]); //prints: 42
     }
 }
