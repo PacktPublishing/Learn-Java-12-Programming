@@ -34,5 +34,4 @@ public class ThisAndSuper {
             super.someMethod();    //prints: Method of B class
         }
     }
-
 }
