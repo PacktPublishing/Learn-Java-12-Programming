@@ -71,6 +71,9 @@ public class ReferenceTypes {
     enum Season2 {
         SPRING(42), SUMMER(67), AUTUMN(32), WINTER(20);
         private int temperature;
+        Season2(String temperature){
+            this.temperature = Integer.valueOf(temperature);
+        }
         Season2(int temperature){
             this.temperature = temperature;
         }
