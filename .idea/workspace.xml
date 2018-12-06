@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="" />
+    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Strings.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,42 +20,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ThisAndSuper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/WideningNarrowing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="3" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/BoxingUnboxing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="64" column="49" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="64" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="17685">
               <caret line="1239" column="26" selection-start-line="1239" selection-start-column="26" selection-end-line="1239" selection-end-column="26" />
               <folding>
                 <element signature="e#47590#47591#0" expanded="true" />
@@ -65,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-end-line="1" />
+              <caret line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,17 +44,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
+            <state relative-caret-position="2370">
               <caret line="176" column="48" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Strings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="234" column="28" selection-start-line="234" selection-start-column="28" selection-end-line="234" selection-end-column="28" />
               <folding>
-                <element signature="e#2265#2266#0" expanded="true" />
-                <element signature="e#2336#2337#0" expanded="true" />
-                <element signature="e#2371#2372#0" expanded="true" />
-                <element signature="e#2425#2426#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/InputOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Files.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -100,20 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/AccessModifiers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="825">
               <caret line="57" selection-start-line="48" selection-end-line="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch04_exceptions/TryCatchFinally.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="88" selection-start-line="84" selection-end-line="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Constructor.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InterfaceExamples.java" />
@@ -173,6 +173,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/StaticMembers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Strings.java" />
       </list>
     </option>
   </component>
@@ -249,54 +252,25 @@
             </path>
             <path>
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01_start" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05_strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.sql" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReferenceTypes">
+  <component name="RunManager" selected="Application.Strings">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -403,13 +377,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisAndSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch03_fundamentals.ThisAndSuper" />
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch05_strings.Strings" />
       <module name="learnjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch03_fundamentals.*" />
+          <option name="PATTERN" value="com.packt.learnjava.ch05_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -445,19 +419,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.InterfaceExamples" />
-      <item itemvalue="Application.ThisAndSuper" />
       <item itemvalue="Application.WideningNarrowing" />
       <item itemvalue="Application.BoxingUnboxing" />
       <item itemvalue="Application.Packages" />
       <item itemvalue="Application.ReferenceTypes" />
+      <item itemvalue="Application.Strings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Strings" />
         <item itemvalue="Application.ReferenceTypes" />
         <item itemvalue="Application.Packages" />
         <item itemvalue="Application.BoxingUnboxing" />
         <item itemvalue="Application.WideningNarrowing" />
-        <item itemvalue="Application.ThisAndSuper" />
       </list>
     </recent_temporary>
   </component>
@@ -482,8 +456,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="46" width="1630" height="979" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.21158691" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.2141058" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,7 +466,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989027" weight="0.3275463" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989027" visible="true" weight="0.3275463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399754" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +474,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010973" side_tool="true" weight="0.3308733" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989027" weight="0.3298611" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3287037" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -510,20 +485,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2503">
@@ -570,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="2" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
-          <caret line="479" column="66" selection-start-line="479" selection-start-column="61" selection-end-line="479" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -733,9 +687,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/WideningNarrowing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="3" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/BoxingUnboxing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="49" selection-start-line="34" selection-start-column="8" selection-end-line="64" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="17685">
           <caret line="1239" column="26" selection-start-line="1239" selection-start-column="26" selection-end-line="1239" selection-end-column="26" />
           <folding>
             <element signature="e#47590#47591#0" expanded="true" />
@@ -744,24 +712,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/WideningNarrowing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="3" selection-end-line="9" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/BoxingUnboxing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="64" column="49" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="64" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/AccessModifiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="57" selection-start-line="48" selection-end-line="57" />
+        <state relative-caret-position="2370">
+          <caret line="176" column="48" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -772,25 +736,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/Packages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/AccessModifiers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-end-line="1" />
+        <state relative-caret-position="825">
+          <caret line="57" selection-start-line="48" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/InputOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5877#5878#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch03_fundamentals/ReferenceTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="176" column="48" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="48" />
+        <state relative-caret-position="509">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_strings/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="234" column="28" selection-start-line="234" selection-start-column="28" selection-end-line="234" selection-end-column="28" />
           <folding>
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2336#2337#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
