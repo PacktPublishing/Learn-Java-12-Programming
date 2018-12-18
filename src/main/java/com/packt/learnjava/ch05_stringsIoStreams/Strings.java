@@ -1,4 +1,4 @@
-package com.packt.learnjava.ch05_strings;
+package com.packt.learnjava.ch05_stringsIoStreams;
 
 import org.apache.commons.lang3.StringUtils;
 
