@@ -17,7 +17,7 @@ public class CollectionsUtils {
         List<String> list1 = Arrays.asList("s1","s2");
         List<String> list2 = Arrays.asList("s3", "s4", "s5");
         Collections.copy(list2, list1);
-        System.out.println(list2);    //prints: [s1, s2, "s5"]
+        System.out.println(list2);    //prints: [s1, s2, s5]
     }
 
     private static void javaUtilCollections_sort(){
