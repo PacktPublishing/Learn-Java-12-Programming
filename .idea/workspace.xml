@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/ObjectsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/TimeRelatedClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4485">
-              <caret line="299" selection-start-line="290" selection-end-line="299" />
+            <state relative-caret-position="321">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/TimeRelatedClasses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="312">
               <caret line="174" column="62" lean-forward="true" selection-start-line="165" selection-start-column="8" selection-end-line="174" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -185,11 +182,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/InputOutputStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/Files.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/Collections.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/ObjectsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/ObjectsUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/TimeRelatedClasses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" />
       </list>
     </option>
   </component>
@@ -379,7 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeRelatedClasses">
+  <component name="RunManager" selected="Application.CollectionsDemo">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -502,10 +499,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.TimeRelatedClasses" />
         <item itemvalue="Application.ObjectsUtils" />
         <item itemvalue="Application.CollectionsUtils" />
-        <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.Files" />
       </list>
     </recent_temporary>
@@ -783,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
-          <caret line="299" selection-start-line="290" selection-end-line="299" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -851,11 +841,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/TimeRelatedClasses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="312">
           <caret line="174" column="62" lean-forward="true" selection-start-line="165" selection-start-column="8" selection-end-line="174" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
