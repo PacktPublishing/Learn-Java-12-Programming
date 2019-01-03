@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/ConcurrentCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Futures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Pools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Synchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/example/ExampleClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,106 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch07_libraries/SomeClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch07_libraries/Collections4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Threads.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="90" column="1" lean-forward="true" selection-start-line="69" selection-end-line="90" selection-end-column="1" />
-              <folding>
-                <element signature="e#2221#2222#0" expanded="true" />
-                <element signature="e#2271#2272#0" expanded="true" />
-                <element signature="e#2854#2855#0" expanded="true" />
-                <element signature="e#2904#2905#0" expanded="true" />
-                <element signature="e#2139#2140#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2350#2351#0" expanded="true" />
-                <element signature="e#2400#2401#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Pools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="56" selection-start-line="32" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Futures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="89" selection-start-line="74" selection-end-line="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#3266#3267#0" expanded="true" />
-                <element signature="e#3306#3307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Synchronization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="12" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2438#2439#0" expanded="true" />
-                <element signature="e#2480#2481#0" expanded="true" />
-                <element signature="e#3008#3009#0" expanded="true" />
-                <element signature="e#3050#3051#0" expanded="true" />
-                <element signature="e#3569#3570#0" expanded="true" />
-                <element signature="e#3611#3612#0" expanded="true" />
-                <element signature="e#4165#4166#0" expanded="true" />
-                <element signature="e#4206#4207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/ConcurrentCollections.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/MyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/example/ExampleClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +60,12 @@
       <find>cari</find>
       <find>Level</find>
       <find>interrupted</find>
+      <find>hello</find>
+      <find>someParameter</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Polymorphism1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/InstanceOf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Instanceof.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/Packages.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch02_oop/AccessModifiers.java" />
@@ -205,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Futures.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Synchronization.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/ConcurrentCollections.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/example/ExampleClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/MyApplication.java" />
       </list>
     </option>
   </component>
@@ -232,8 +151,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1274" />
-    <option name="y" value="-260" />
+    <option name="x" value="6" />
+    <option name="y" value="59" />
     <option name="width" value="1251" />
     <option name="height" value="965" />
   </component>
@@ -263,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +223,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01_start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02_oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05_stringsIoStreams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
               <item name="ch06_collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,6 +269,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learnjava" type="462c0819:PsiDirectoryNode" />
               <item name="ch08_threads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch09_jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
@@ -422,13 +378,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -457,7 +413,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentCollections">
+  <component name="RunManager" selected="Application.MyApplication">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -516,6 +472,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="someVar" value="43" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch09_jvm.MyApplication" />
+      <module name="learnjava" />
+      <option name="PROGRAM_PARAMETERS" value="one two three" />
+      <option name="VM_PARAMETERS" value="-DsomeParameter=42" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch09_jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch08_threads.Pools" />
       <module name="learnjava" />
@@ -544,20 +518,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch08_threads.Threads" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch08_threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -572,19 +532,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.InterfaceExamples" />
-      <item itemvalue="Application.Threads" />
       <item itemvalue="Application.Pools" />
       <item itemvalue="Application.Futures" />
       <item itemvalue="Application.Synchronization" />
       <item itemvalue="Application.ConcurrentCollections" />
+      <item itemvalue="Application.MyApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyApplication" />
         <item itemvalue="Application.ConcurrentCollections" />
         <item itemvalue="Application.Synchronization" />
         <item itemvalue="Application.Futures" />
         <item itemvalue="Application.Pools" />
-        <item itemvalue="Application.Threads" />
       </list>
     </recent_temporary>
   </component>
@@ -631,10 +591,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1274" y="-260" width="1251" height="965" extended-state="0" />
-    <editor active="true" />
+    <frame x="6" y="59" width="1251" height="965" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.33416048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.33995038" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,7 +601,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282353" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49793217" visible="true" weight="0.46470588" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793217" weight="0.46470588" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39882353" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -650,7 +609,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020678" side_tool="true" weight="0.3282353" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3282353" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49793217" weight="0.38470587" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49793217" visible="true" weight="0.38470587" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32705882" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -661,38 +620,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/StreamTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="625" column="32" selection-start-line="625" selection-start-column="32" selection-end-line="625" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/Person1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ObjectStreamField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="266" column="15" selection-start-line="266" selection-start-column="15" selection-end-line="266" selection-end-column="15" />
-          <folding>
-            <element signature="e#8251#8252#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -705,16 +632,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo1/demo2/FileName.txt" />
     <entry file="file://$PROJECT_DIR$/output.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/InputOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" selection-start-line="8" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/ReaderWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -752,34 +669,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/Operators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1034,20 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Futures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="89" selection-start-line="74" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#3266#3267#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tokens.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1093,13 +968,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/ConcurrentCollections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="341">
+          <caret line="41" selection-start-line="30" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/Operators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/InputOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch08_threads/Futures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="89" selection-start-line="74" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#3266#3267#0" expanded="true" />
+            <element signature="e#3306#3307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" lean-forward="true" selection-start-line="4" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/example/ExampleClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch09_jvm/MyApplication.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
