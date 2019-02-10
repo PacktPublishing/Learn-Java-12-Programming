@@ -1,0 +1,9 @@
+#text-hello {
+   -fx-font-size: 20px;
+   -fx-font-family: "Arial";
+   -fx-fill: red;
+}
+.button {
+   -fx-background-color: slateblue;
+   -fx-text-fill: white;
+}
