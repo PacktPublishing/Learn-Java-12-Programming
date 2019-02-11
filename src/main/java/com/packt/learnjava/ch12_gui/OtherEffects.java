@@ -46,17 +46,18 @@ public class OtherEffects extends Application {
     public void start(Stage primaryStage) {
         try {
             Text txt = new Text();
+
+            FileInputStream inputP = new FileInputStream("src/main/resources/packt.png");
+            Image imageP = new Image(inputP);
+            ImageView ivP = new ImageView(imageP);
+
             FileInputStream inputM = new FileInputStream("src/main/resources/mount.jpeg");
             Image imageM = new Image(inputM);
             ImageView ivM = new ImageView(imageM);
             ivM.setPreserveRatio(true);
             ivM.setFitWidth(300);
 
-            FileInputStream inputP = new FileInputStream("src/main/resources/packt.png");
-            Image imageP = new Image(inputP);
-            ImageView ivP = new ImageView(imageP);
-
-            EffectThread et = new EffectThread(txt, ivM, ivP);
+            EffectsThread et = new EffectsThread(txt, ivM, ivP);
 
             Button btnP = new Button("Pause");
             btnP.setOnAction(e1 -> et.pause());
@@ -99,8 +100,7 @@ public class OtherEffects extends Application {
         }
     }
 
-    private static Effect createEffect(String effect, int i, Text txt){
-        double d = Math.round(i * 0.1 * 10.0)/10.0;
+    private static Effect createEffect(String effect, double d, Text txt){
         switch(effect){
             case "Bloom":
                 System.out.println(effect + ".threshold: " + d);
@@ -109,6 +109,7 @@ public class OtherEffects extends Application {
                 b.setThreshold(d);
                 return b;
             case "BoxBlur":
+                int i = (int) d * 10;
                 int it = i / 3;
                 System.out.println(effect + ".iterations: " + it);
                 txt.setText(effect + ".iterations: " + it);
@@ -116,14 +117,14 @@ public class OtherEffects extends Application {
                 bb.setIterations(i);
                 return bb;
             case "ColorAdjust.contrast":
-                double c = Math.round((-1.0 + d * 2)*10.0)/10.0;
+                double c = Math.round((-1.0 + d * 2) * 10.0) / 10.0;
                 System.out.println(effect + ": " + c);
                 txt.setText(effect + ": " + c);
                 ColorAdjust ca = new ColorAdjust();
                 ca.setContrast(c);
                 return ca;
             case "ColorAdjust.hue":
-                double h = Math.round((-1.0 + d * 2)*10.0)/10.0;
+                double h = Math.round((-1.0 + d * 2) * 10.0) / 10.0;
                 System.out.println(effect + ": " + h);
                 txt.setText(effect + ": " + h);
                 ColorAdjust ca1 = new ColorAdjust();
@@ -137,7 +138,7 @@ public class OtherEffects extends Application {
                 ca2.setBrightness(br);
                 return ca2;
             case "ColorAdjust.saturation":
-                double st = Math.round((-1.0 + d * 2)*10.0)/10.0;
+                double st = Math.round((-1.0 + d * 2) * 10.0) / 10.0;
                 System.out.println(effect + ": " + st);
                 txt.setText(effect + ": " + st);
                 ColorAdjust ca3 = new ColorAdjust();
@@ -161,7 +162,7 @@ public class OtherEffects extends Application {
                 dm.setMapData(floatMap);
                 return dm;
             case "DropShadow.radius":
-                double rd = Math.round((127.0 * d)*10.0)/10.0;
+                double rd = Math.round((127.0 * d) * 10.0) / 10.0;
                 System.out.println(effect + ": " + rd);
                 txt.setText(effect + ": " + rd);
                 DropShadow sh = new DropShadow();
@@ -230,7 +231,7 @@ public class OtherEffects extends Application {
                 lSs.setSurfaceScale(5.0);
                 return lSs;
             case "MotionBlur.radius":
-                double r = Math.round((63.0 * d)*10.0)/10.0;
+                double r = Math.round((63.0 * d)*10.0) / 10.0;
                 System.out.println(effect + ": " + r);
                 txt.setText(effect + ": " + r);
                 MotionBlur mb1 = new MotionBlur();
@@ -269,7 +270,7 @@ public class OtherEffects extends Application {
 
     }
 
-    private static class EffectThread extends Thread {
+    private static class EffectsThread extends Thread {
         private String[] effects = {"Bloom", "BoxBlur","ColorAdjust.contrast","ColorAdjust.hue","ColorAdjust.brightness", "ColorAdjust.saturation","DisplacementMap","DropShadow.radius","Glow","InnerShadow","Lighting.Distant.azimuth","Lighting.Distant.surfaceScale","Lighting.Distant.elevation","Lighting.Spot.specularExponent","MotionBlur.radius","PerspectiveTransform","Reflection.fraction","ShadowTone.radius","SepiaTone.level"};
 
         private boolean pause;
@@ -277,7 +278,7 @@ public class OtherEffects extends Application {
         private ImageView ivP;
         private Text txt;
 
-        EffectThread (Text txt, ImageView ivM, ImageView ivP){
+        EffectsThread(Text txt, ImageView ivM, ImageView ivP){
             setDaemon(true);
             this.txt = txt;
             this.ivM = ivM;
@@ -295,6 +296,7 @@ public class OtherEffects extends Application {
             try {
                 for(String effect: effects){
                     for(int i = 0; i < 11; i++){
+                        double d = Math.round(i * 0.1 * 10.0) / 10.0;
                         Effect e = createEffect(effect, i, txt);
                         ivM.setEffect(e);
                         ivP.setEffect(e);

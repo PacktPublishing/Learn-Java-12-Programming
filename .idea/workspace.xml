@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorldController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HtmlWebView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/OtherEffects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/helloWorld.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/helloWorld2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jb.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mount.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/packt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sea.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/OtherEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/OtherEffects.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="495">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HtmlWebView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
+            <state relative-caret-position="1320">
               <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/OtherEffects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="273" column="16" lean-forward="true" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
+            <state relative-caret-position="754">
+              <caret line="265" selection-start-line="262" selection-end-line="265" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="2070">
+              <caret line="142" lean-forward="true" selection-start-line="129" selection-end-line="142" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -399,7 +386,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OtherEffects">
+  <component name="RunManager" selected="Application.BlendEffect">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -630,7 +616,7 @@
     <frame x="-1276" y="-270" width="1264" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.35106382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.35679215" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -638,7 +624,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3249052" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49682036" visible="true" weight="0.34668192" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.34668192" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39696586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,7 +632,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50317967" side_tool="true" weight="0.3830594" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32743362" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49793217" weight="0.38393977" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49793217" weight="0.3832952" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49682036" weight="0.31858408" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -935,7 +921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="495">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -945,8 +931,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HtmlWebView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
+        <state relative-caret-position="1320">
           <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="142" lean-forward="true" selection-start-line="129" selection-end-line="142" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,20 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/OtherEffects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="273" column="16" lean-forward="true" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
+        <state relative-caret-position="754">
+          <caret line="265" selection-start-line="262" selection-end-line="265" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
