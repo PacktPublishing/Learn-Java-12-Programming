@@ -13,7 +13,6 @@ public class NumericStreams {
         mapTo();
         flatMapTo();
         sumAndAverage();
-
     }
 
     private static void range(){
