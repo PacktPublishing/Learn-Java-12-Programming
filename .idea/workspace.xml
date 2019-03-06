@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="0">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/BlockingOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/CreateObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/DisposableUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/HotObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/MeasuringSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/NonBlockingOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,14 +24,121 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="37" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/BlockingOperators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/NonBlockingOperators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="133" selection-start-line="132" selection-end-line="133" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/CreateObservable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/Scheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="29" selection-start-line="22" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/HotObservable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="776">
+              <caret line="56" selection-start-line="48" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/DisposableUsage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" selection-start-line="25" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/MeasuringSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -64,6 +178,8 @@
       <find>cir top</find>
       <find>r5</find>
       <find>Rect</find>
+      <find>.using</find>
+      <find>i</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -83,16 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/TcpClient3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/MyServerSocket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/MyClientSocket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/MyTcpServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/MyTcpClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/MyTcpServer2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/MyTcpClient2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/TcpServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/Parameters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/TcpClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/WebSocketServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/WebSocketServer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/WebSocketServer1.java" />
@@ -107,7 +213,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorldController2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/helloWorld2.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/helloWorld.fxml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/toolbar.css" />
         <option value="$PROJECT_DIR$/src/main/resources/Helloworld.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/AddHtmlDemo.java" />
@@ -130,10 +235,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/IntermediateOps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminateOps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/persons.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/Initialize.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/ParallelStreams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/MeasuringSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/ResctiveStreamsAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/RxJava.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/DisposableUsage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/HotObservable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/BlockingOperators.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/CreateObservable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/NonBlockingOperators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/Scheduler.java" />
       </list>
     </option>
   </component>
@@ -161,10 +277,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1151" />
-    <option name="y" value="-270" />
-    <option name="width" value="1129" />
-    <option name="height" value="865" />
+    <option name="x" value="11" />
+    <option name="y" value="23" />
+    <option name="width" value="1660" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,7 +308,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +355,15 @@
               <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch15_reactive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,118 +391,11 @@
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.net.http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.net.http" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="geometry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-              <item name="effect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjfx:javafx-graphics:mac:11.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="javafx-graphics-11.0.2-mac.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-              <item name="paint" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -418,7 +435,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumericStreams">
+  <component name="RunManager" selected="Application.Scheduler">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -434,13 +451,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Initialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch14_streams.Initialize" />
+    <configuration name="BlockingOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch15_reactive.BlockingOperators" />
       <module name="learnjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch14_streams.*" />
+          <option name="PATTERN" value="com.packt.learnjava.ch15_reactive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateObservable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch15_reactive.CreateObservable" />
+      <module name="learnjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch15_reactive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotObservable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch15_reactive.HotObservable" />
+      <module name="learnjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch15_reactive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,41 +508,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntermediateOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch14_streams.IntermediateOps" />
+    <configuration name="NonBlockingOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch15_reactive.NonBlockingOperators" />
       <module name="learnjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch14_streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch13_functional.MethodReferenceDemo" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch13_functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumericStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch14_streams.NumericStreams" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch14_streams.*" />
+          <option name="PATTERN" value="com.packt.learnjava.ch15_reactive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -519,13 +536,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerminalOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch14_streams.TerminalOps" />
+    <configuration name="Scheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch15_reactive.Scheduler" />
       <module name="learnjava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch14_streams.*" />
+          <option name="PATTERN" value="com.packt.learnjava.ch15_reactive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -549,19 +566,19 @@
     <list>
       <item itemvalue="Application.InterfaceExamples" />
       <item itemvalue="Application.OtherEffects" />
-      <item itemvalue="Application.MethodReferenceDemo" />
-      <item itemvalue="Application.Initialize" />
-      <item itemvalue="Application.IntermediateOps" />
-      <item itemvalue="Application.TerminalOps" />
-      <item itemvalue="Application.NumericStreams" />
+      <item itemvalue="Application.BlockingOperators" />
+      <item itemvalue="Application.HotObservable" />
+      <item itemvalue="Application.CreateObservable" />
+      <item itemvalue="Application.NonBlockingOperators" />
+      <item itemvalue="Application.Scheduler" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumericStreams" />
-        <item itemvalue="Application.TerminalOps" />
-        <item itemvalue="Application.IntermediateOps" />
-        <item itemvalue="Application.Initialize" />
-        <item itemvalue="Application.MethodReferenceDemo" />
+        <item itemvalue="Application.Scheduler" />
+        <item itemvalue="Application.NonBlockingOperators" />
+        <item itemvalue="Application.CreateObservable" />
+        <item itemvalue="Application.HotObservable" />
+        <item itemvalue="Application.BlockingOperators" />
       </list>
     </recent_temporary>
   </component>
@@ -608,10 +625,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1151" y="-270" width="1129" height="865" extended-state="0" />
+    <frame x="11" y="23" width="1660" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.25390986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.18665019" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -619,132 +636,25 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32379863" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49682036" visible="true" weight="0.28" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49682036" visible="true" weight="0.5830546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39696586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296433" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50317967" side_tool="true" weight="0.3830594" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3272311" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49793217" weight="0.40266666" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49682036" weight="0.37866667" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50037456" side_tool="true" weight="0.32533333" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49962547" weight="0.32533333" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" weight="0.40266666" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49682036" weight="0.3779264" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32919767" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32880098" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/howAreYou.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-mac.jar!/javafx/application/Application.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-mac.jar!/javafx/geometry/Insets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-mac.jar!/javafx/scene/effect/Glow.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-mac.jar!/javafx/scene/paint/Color.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mount.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/helloWorld.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="87" selection-start-line="82" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.net.http/java/net/http/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="537" column="39" lean-forward="true" selection-start-line="537" selection-start-column="39" selection-end-line="537" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/TcpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/HttpClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="67" column="86" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/TcpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/UdpReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1012,16 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="374" selection-start-line="374" selection-end-line="374" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1046,10 +946,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/ResctiveStreamsAPI.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava2/rxjava/2.2.7/rxjava-2.2.7.jar!/io/reactivex/disposables/Disposable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava2/rxjava/2.2.7/rxjava-2.2.7.jar!/io/reactivex/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="724" column="5" lean-forward="true" selection-start-line="724" selection-start-column="5" selection-end-line="724" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="37" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/BlockingOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/CreateObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/DisposableUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="25" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/MeasuringSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/NonBlockingOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="133" selection-start-line="132" selection-end-line="133" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/HotObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="56" selection-start-line="48" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="29" selection-start-line="22" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
