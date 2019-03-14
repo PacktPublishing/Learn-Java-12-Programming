@@ -124,7 +124,7 @@ public class BlendEffect extends Application {
         }
     }
 
-    // Demo all modes
+    // ReactiveSystemDemo all modes
     public void start(Stage primaryStage) {
         try {
             Text txt1 = new Text("Circle is top input");
