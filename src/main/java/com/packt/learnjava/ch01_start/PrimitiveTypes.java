@@ -1,5 +1,8 @@
 package com.packt.learnjava.ch01_start;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 public class PrimitiveTypes {
 
     public static void main(String... args){
@@ -9,6 +12,7 @@ public class PrimitiveTypes {
         minMax();
         casting();
         literals();
+        newInJava12();
     }
 
     private static void charType(){
@@ -112,6 +116,51 @@ public class PrimitiveTypes {
     private static void var(){
         var x = 1;
     }
+
+    private static void newInJava12(){
+        NumberFormat fmt = NumberFormat.getCompactNumberInstance(Locale.US, NumberFormat.Style.SHORT);
+        System.out.println(fmt.format(42_000));      //prints: 42K
+        System.out.println(fmt.format(42_000_000));  //prints: 42M
+
+        NumberFormat fmtP = NumberFormat.getPercentInstance();
+        System.out.println(fmtP.format(0.42));       //prints: 42%
+
+        //The following is a preview feature
+        // and requires adding option
+        // --enable-preview
+        // to javac and java commands
+/*
+        switchDemo1(1);    //prints: 1 or 3: 1
+        switchDemo1(2);    //prints: Not 1,3,4,5,6: 2
+        switchDemo1(5);    //prints: 5 or 6: 5
+
+        switchDemo2(0);    //prints: false
+        switchDemo2(1);    //prints: true
+        switchDemo2(2);    //prints: false
+*/
+
+    }
+
+/*
+    private static void switchDemo1(int i){
+        switch (i) {
+            case 1, 3 -> System.out.print("1 or 3");
+            case 4    -> System.out.print("4");
+            case 5, 6 -> System.out.print("5 or 6");
+            default   -> System.out.print("Not 1,3,4,5,6");
+        }
+        System.out.println(": " + i);
+    }
+
+    private static void switchDemo2(int i){
+        boolean b = switch(i) {
+            case 0 -> false;
+            case 1 -> true;
+            default -> false;
+        };
+        System.out.println(b);
+    }
+*/
 
 }
 
