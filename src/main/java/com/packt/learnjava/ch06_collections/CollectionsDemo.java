@@ -16,6 +16,18 @@ public class CollectionsDemo {
         sort1();
         sort2();
         map();
+        unmodifiable();
+    }
+
+    private static void unmodifiable(){
+        System.out.println("\nmodifiable():");
+
+        Person1 p1 = new Person1(45, "Bill");
+        List<Person1> list = List.of(p1);
+        //list.add(new Person1(22, "Bob")); //UnsupportedOperationException
+        System.out.println(list);  //[Person{age=45, name=Bill}]
+        p1.setName("Kelly");       //[Person{age=45, name=Kelly}]
+        System.out.println(list);
     }
 
     private static void initialize1(){
@@ -318,6 +330,22 @@ public class CollectionsDemo {
             return Objects.hash(age, name);
         }
 
+        @Override
+        public String toString() {
+            return "Person{age=" + age +
+                    ", name=" + name + "}";
+        }
+    }
+
+    private static class Person1 {
+        private int age;
+        private String name;
+
+        public Person1(int age, String name) {
+            this.age = age;
+            this.name = name == null ? "" : name;
+        }
+        public void setName(String name){ this.name = name; }
         @Override
         public String toString() {
             return "Person{age=" + age +
