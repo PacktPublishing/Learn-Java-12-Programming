@@ -1,12 +1,15 @@
 package com.packt.learnjava.ch13_functional;
 
+
+import org.jetbrains.annotations.NotNull;
+import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
 public class LambdaExpressions {
     public static void main(String... args) {
         introduction();
-        thisdDemo();
-
+        thisDemo();
+        localVariableSyntax();
     }
 
     private static void introduction(){
@@ -24,7 +27,7 @@ public class LambdaExpressions {
     }
 
 
-    private static void thisdDemo(){
+    private static void thisDemo(){
         ThisDemo d = new ThisDemo();
         d.useAnonymousClass();   //prints: Consumer.field
         d.useLambdaExpression(); //prints: ThisDemo.field
@@ -47,5 +50,11 @@ public class LambdaExpressions {
             };
             consumer.accept(this.field);
         }
+    }
+
+    private static void localVariableSyntax(){
+        BiFunction<Double, Integer, Double> f4 =
+                (@NotNull var x, @NotNull var y) -> x / y;
+        System.out.println(f4.apply(null, 2));
     }
 }

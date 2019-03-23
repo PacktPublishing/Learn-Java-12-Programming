@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="0">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,14 +23,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+            <state relative-caret-position="429">
+              <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="58" selection-start-line="55" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="125" selection-start-line="115" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -76,6 +107,7 @@
       <find>class Person</find>
       <find>List.of(&quot;s1&quot;, &quot;s2&quot;, &quot;s3&quot;)</find>
       <find>Math.</find>
+      <find>switch</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -95,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/MethodReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/IntermediateOps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminateOps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/persons.csv" />
@@ -146,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/EqualsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java" />
       </list>
     </option>
   </component>
@@ -173,7 +205,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-1255" />
+    <option name="y" value="-264" />
     <option name="width" value="1257" />
     <option name="height" value="960" />
   </component>
@@ -203,7 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,16 +277,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learnjava" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01_start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
-              <item name="ch06_collections" type="462c0819:PsiDirectoryNode" />
+              <item name="ch13_functional" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
@@ -323,37 +347,11 @@
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveTypes">
+  <component name="RunManager" selected="Application.LambdaExpressions">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -454,6 +452,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch13_functional.LambdaExpressions" />
+      <module name="learnjava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.packt.learnjava.ch13_functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OtherEffects" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch12_gui.OtherEffects" />
       <module name="learnjava" />
@@ -495,12 +507,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BenchmarkDemo.testTheMethod3" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.packt.learnjava.ch17_microbenchmark.BenchmarkDemo.testTheMethod3" working-dir="$PROJECT_DIR$" benchmark-type="METHOD" benchmark-class="com.packt.learnjava.ch17_microbenchmark.BenchmarkDemo">
-      <module name="learnjava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BenchmarkDemo.testTheMethod6" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="com.packt.learnjava.ch17_microbenchmark.BenchmarkDemo.testTheMethod6" working-dir="$PROJECT_DIR$" benchmark-type="METHOD" benchmark-class="com.packt.learnjava.ch17_microbenchmark.BenchmarkDemo">
       <module name="learnjava" />
       <method v="2">
@@ -513,16 +519,16 @@
       <item itemvalue="Application.EqualsDemo" />
       <item itemvalue="Application.CollectionsDemo" />
       <item itemvalue="Application.PrimitiveTypes" />
-      <item itemvalue="Jmh.BenchmarkDemo.testTheMethod3" />
       <item itemvalue="Jmh.BenchmarkDemo.testTheMethod6" />
+      <item itemvalue="Application.LambdaExpressions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExpressions" />
         <item itemvalue="Application.PrimitiveTypes" />
         <item itemvalue="Application.EqualsDemo" />
         <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Jmh.BenchmarkDemo.testTheMethod6" />
-        <item itemvalue="Jmh.BenchmarkDemo.testTheMethod3" />
       </list>
     </recent_temporary>
   </component>
@@ -569,10 +575,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1257" height="960" extended-state="0" />
+    <frame x="-1255" y="-264" width="1257" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.27242798" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.2765432" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -580,7 +586,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32189348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975278" weight="0.4402367" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975278" visible="true" weight="0.4402367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39696586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -600,26 +606,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="150" column="28" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/OtherEffects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4605">
-          <caret line="311" column="14" selection-start-line="311" selection-start-column="14" selection-end-line="311" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -845,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" selection-start-line="105" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../JavaRx3/FirstEdition/Learning-RxJava/Chapter12/ch12_1.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -978,8 +957,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+        <state relative-caret-position="429">
+          <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="125" selection-start-line="115" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="58" selection-start-line="55" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -36,6 +36,7 @@
     <orderEntry type="library" name="Maven: org.openjfx:javafx-web:mac:11.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-media:11.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-media:mac:11.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:16.0.2" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex.rxjava2:rxjava:2.2.7" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.6.3" level="project" />
