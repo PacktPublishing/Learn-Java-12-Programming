@@ -24,25 +24,25 @@ public class PrimitiveTypes {
         char x2 = '2';
         System.out.println(x2);  //prints: 2
         x2 = 65;
-        System.out.println(x2);  //prints: C
+        System.out.println(x2);  //prints: A
 
         char y1 = '\u0041';
-        System.out.println(y1);  //prints: C
+        System.out.println(y1);  //prints: A
 
         char y2 = 'A';
-        System.out.println(y2);  //prints: C
+        System.out.println(y2);  //prints: A
         y2 = 50;
         System.out.println(y2);  //prints: 2
 
-        System.out.println(x1 + x2);  //prints: 100
+        System.out.println(x1 + x2);  //prints: 115
         System.out.println(x1 + y1);  //prints: 115
     }
 
     private static void minMax() {
         System.out.println("\nMin and max:");
 
-        System.out.println(Byte.MIN_VALUE);           //prints: -127
-        System.out.println(Byte.MAX_VALUE);           //prints: 128
+        System.out.println(Byte.MIN_VALUE);           //prints: -128
+        System.out.println(Byte.MAX_VALUE);           //prints: 127
         System.out.println(Short.MIN_VALUE);          //prints: -32768
         System.out.println(Short.MAX_VALUE);          //prints: 32767
         System.out.println(Integer.MIN_VALUE);        //prints: -2147483648
