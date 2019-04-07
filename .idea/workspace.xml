@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="0">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="0" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="406">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -223,8 +221,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="-1014" />
+    <option name="x" value="254" />
+    <option name="y" value="33" />
     <option name="width" value="1257" />
     <option name="height" value="960" />
   </component>
@@ -612,10 +610,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="-1014" width="1257" height="960" extended-state="0" />
-    <editor active="true" />
+    <frame x="254" y="33" width="1257" height="960" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.33909464" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.33909464" />
       <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Designer" order="3" />
@@ -630,7 +627,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296433" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012361" side_tool="true" weight="0.32441473" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49876392" visible="true" weight="0.32426035" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49876392" visible="true" weight="0.32426035" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" weight="0.40118343" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49682036" weight="0.37751478" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1015,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="406">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
         </state>
       </provider>
     </entry>

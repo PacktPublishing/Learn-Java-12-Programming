@@ -19,15 +19,15 @@ public class CallableStatementDemo {
 */
     }
 
-    private static String replace(String text, String from, String to) {
+    private static String replace(String origText, String substr1, String substr2) {
         String result = "";
         String sql = "{ ? = call replace(?, ?, ? ) }";
         Connection conn = getConnection();
         try (conn; CallableStatement st = conn.prepareCall(sql)) {
             st.registerOutParameter(1, Types.VARCHAR);
-            st.setString(2, text);
-            st.setString(3, from);
-            st.setString(4, to);
+            st.setString(2, origText);
+            st.setString(3, substr1);
+            st.setString(4, substr2);
             st.execute();
             result = st.getString(1);
         } catch (Exception ex){
