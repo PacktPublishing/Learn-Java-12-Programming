@@ -127,7 +127,7 @@ public class HelloWorld extends Application {
         txt.relocate(115, 40);
 
         Button btn = new Button("Exit");
-        btn.setStyle("-fx-background-color: red; -fx-text-fill: white;");
+        btn.setStyle("-fx-text-fill: white; -fx-background-color: red;");
         btn.relocate(155, 80);
         btn.setOnAction(e -> {
             System.out.println("Bye! See you later!");

@@ -261,31 +261,31 @@ public class BlendEffect extends Application {
         Node txt1 = new Text(bm1.name());
         Node txt2 = new Text(bm2.name());
 
-        Blend blend1 = new Blend();
-        blend1.setMode(bm1);
+        Blend blnd1 = new Blend();
+        blnd1.setMode(bm1);
 
         Node c1 = createCircle();
         Node s1 = createSquare();
         Node g1 = new Group(s1, c1);
-        g1.setEffect(blend1);
+        g1.setEffect(blnd1);
 
         Node c2 = createCircle();
         Node s2 = createSquare();
         Node g2 = new Group(c2, s2);
-        g2.setEffect(blend1);
+        g2.setEffect(blnd1);
 
-        Blend blend2 = new Blend();
-        blend2.setMode(bm2);
+        Blend blnd2 = new Blend();
+        blnd2.setMode(bm2);
 
         Node c3 = createCircle();
         Node s3 = createSquare();
         Node g3 = new Group(s3, c3);
-        g3.setEffect(blend2);
+        g3.setEffect(blnd2);
 
         Node c4 = createCircle();
         Node s4 = createSquare();
         Node g4 = new Group(c4, s4);
-        g4.setEffect(blend2);
+        g4.setEffect(blnd2);
 
         Node[] arr = {txt1, g1, g2, txt2, g3, g4 };
         return arr;
@@ -323,27 +323,27 @@ public class BlendEffect extends Application {
         Node txt1 = new Text(bm1.name());
         Node txt2 = new Text(bm2.name());
 
-        Blend blend1 = new Blend();
-        blend1.setMode(bm1);
+        Blend blnd1 = new Blend();
+        blnd1.setMode(bm1);
 
         Node c1 = createCircle();
         Node s1 = createSquare();
-        c1.setEffect(blend1);
+        c1.setEffect(blnd1);
 
         Node c2 = createCircle();
         Node s2 = createSquare();
-        c2.setEffect(blend1);
+        c2.setEffect(blnd1);
 
-        Blend blend2 = new Blend();
-        blend2.setMode(bm2);
+        Blend blnd2 = new Blend();
+        blnd2.setMode(bm2);
 
         Node c3 = createCircle();
         Node s3 = createSquare();
-        c3.setEffect(blend2);
+        c3.setEffect(blnd2);
 
         Node c4 = createCircle();
         Node s4 = createSquare();
-        c4.setEffect(blend2);
+        c4.setEffect(blnd2);
 
         Node[] arr = {txt1, new Group(s1, c1), new Group(c2, s2), txt2, new Group(s3, c3), new Group(c4, s4) };
         return arr;
@@ -354,27 +354,27 @@ public class BlendEffect extends Application {
         Node txt1 = new Text(bm1.name());
         Node txt2 = new Text(bm2.name());
 
-        Blend blend1 = new Blend();
-        blend1.setMode(bm1);
+        Blend blnd1 = new Blend();
+        blnd1.setMode(bm1);
 
         Node c1 = createCircle();
         Node s1 = createSquare();
-        s1.setEffect(blend1);
+        s1.setEffect(blnd1);
 
         Node c2 = createCircle();
         Node s2 = createSquare();
-        s2.setEffect(blend1);
+        s2.setEffect(blnd1);
 
-        Blend blend2 = new Blend();
-        blend2.setMode(bm2);
+        Blend blnd2 = new Blend();
+        blnd2.setMode(bm2);
 
         Node c3 = createCircle();
         Node s3 = createSquare();
-        s3.setEffect(blend2);
+        s3.setEffect(blnd2);
 
         Node c4 = createCircle();
         Node s4 = createSquare();
-        s4.setEffect(blend2);
+        s4.setEffect(blnd2);
 
         Node[] arr = {txt1, new Group(s1, c1), new Group(c2, s2), txt2, new Group(s3, c3), new Group(c4, s4) };
         return arr;
