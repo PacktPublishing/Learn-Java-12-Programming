@@ -10,29 +10,29 @@ public class ControlFlow {
         branching();
     }
 
-    private static void selection(){
+    private static void selection() {
         System.out.println("\nSelection statements:");
         int x = 1, y = 2;
 
-        if(x > y){
+        if (x > y) {
             //do something
         }
 
-        if(x > y){
+        if (x > y) {
             //do something
         } else {
             //do something else
         }
 
-        if(x > y){
+        if (x > y) {
             //do something
-        } else if (x == y){
+        } else if (x == y) {
             //do something else
         } else {
             //do something different
         }
 
-        switch(x){
+        switch (x) {
             case 5:
                 //do something
                 break;
@@ -50,6 +50,8 @@ public class ControlFlow {
         }
 
 /*
+        //Uncomment after adding --enable-preview option to the compiler and to the runtime
+
         switch (x) {
             case 1, 3 -> System.out.println("1 or 3");
             case 4    -> System.out.println("4");
@@ -68,15 +70,14 @@ public class ControlFlow {
             default   -> System.out.println("Not 1,3,4,5,6");
         }
 
-        int y = switch (x) {
+        int z = switch (x) {
             case 1, 3 -> x + 2;
             case 4    -> x - 4;
             case 5, 6 -> x + 3;
             default   -> 42;
-        }
+        };
 */
     }
-
     private static void iteration(){
         System.out.println("\nIteration statements:");
 

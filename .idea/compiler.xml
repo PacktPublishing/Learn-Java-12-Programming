@@ -14,9 +14,8 @@
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="--enable-preview" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="learnjava" options="" />
+      <module name="learnjava" options="--enable-preview" />
     </option>
   </component>
 </project>
