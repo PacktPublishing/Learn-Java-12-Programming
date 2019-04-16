@@ -26,7 +26,7 @@ public class TryCatchFinally {
         }
     }
 
-    private static void tryWithRecources7() {
+    private static void tryWithRecources() {
         try (Connection conn = DriverManager.getConnection("dburl", "username", "password");
              ResultSet rs = conn.createStatement().executeQuery("select * from some_table")) {
             while (rs.next()) {
@@ -38,7 +38,7 @@ public class TryCatchFinally {
         }
     }
 
-    private static void tryWithRecources9(Connection conn, ResultSet rs) {
+    private static void tryWithRecources(Connection conn, ResultSet rs) {
         try (conn; rs) {
             while (rs.next()) {
                 //process the retrieved data
