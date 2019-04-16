@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class Throws {
 
-    private static void tryWithRecources9() {
+    private static void tryWithRecources() {
         Connection conn;
         ResultSet rs;
         try {

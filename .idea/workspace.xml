@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="0">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java" afterDir="false" />
-    </list>
+    <list default="true" id="cd3b387c-d984-4137-9178-ef1a15e28e38" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +13,22 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Learn_Java_12_Programming$InterfaceExamples.ic" NAME="InterfaceExamples Coverage Results" MODIFIED="1552752864248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.packt.learnjava.ch03_fundamentals.*</FILTER>
-    </SUITE>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/HttpClientDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2985">
-              <caret line="216" column="40" selection-start-line="216" selection-start-column="40" selection-end-line="216" selection-end-column="63" />
+            <state relative-caret-position="765">
+              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/FunctionalInterface.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="149">
+              <caret line="120" column="102" lean-forward="true" selection-start-line="120" selection-start-column="102" selection-end-line="120" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,118 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/MethodReferenceDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/StandardFunctionalInterfaces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>car</find>
-      <find>cari</find>
-      <find>Level</find>
-      <find>interrupted</find>
-      <find>hello</find>
-      <find>someParameter</find>
-      <find>hello.txt</find>
-      <find>parame</find>
-      <find>*</find>
-      <find>messageen</find>
-      <find>BodyHandler.</find>
-      <find>BodyHandler</find>
-      <find>&quot;-&quot;</find>
-      <find>th</find>
-      <find>grid</find>
-      <find>cir top</find>
-      <find>r5</find>
-      <find>Rect</find>
-      <find>.using</find>
-      <find>i</find>
-      <find>listen</find>
-      <find>create</find>
-      <find>class Person</find>
-      <find>List.of(&quot;s1&quot;, &quot;s2&quot;, &quot;s3&quot;)</find>
-      <find>Math.</find>
-      <find>switch</find>
-      <find>NotNull</find>
-      <find>Hi there</find>
-      <find>Hi</find>
-      <find>Platf</find>
+      <find>log4j2</find>
     </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>&quot; : &quot;</replace>
-      <replace>tr</replace>
-      <replace>circle top</replace>
-      <replace>s4</replace>
-      <replace>blnd</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/main</dir>
-      <dir>$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network</dir>
-      <dir>$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams</dir>
-      <dir>$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -172,57 +49,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/ParallelStreams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/ResctiveStreamsAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/RxJava.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/HotObservable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/CreateObservable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/Scheduler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/NonBlockingOperators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/DisposableUsage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/BlockingOperators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/VertxEventBus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/EventBusMessageSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/HttpServer1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/HttpServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/HttpServer1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/HttpServerVerticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageReceiverVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageSenderVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/PeriodicServiceVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageRcvrVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageSndrVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageSndVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/PeriodicSrvVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageRcvVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/MessageRcvVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/HttpServerVert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/ReactiveSystemDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch17_microbenchmark/Benchmark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch17_microbenchmark/BenchmarkLoop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch17_microbenchmark/BenchmarkDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/MeasuringSystem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/EqualsDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/Ch2_13.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch10_database/CallableStatementDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mystyle.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java" />
       </list>
     </option>
   </component>
@@ -240,49 +68,22 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="learnjava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="learnjava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="210" />
-    <option name="y" value="150" />
-    <option name="width" value="1260" />
-    <option name="height" value="769" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>JSON</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>JsonDuplicatePropertyKeys</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="y" value="-1027" />
+    <option name="width" value="1645" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,38 +91,91 @@
               <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learnjava" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01_start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn-Java-12-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn-Java-12-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 12 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="add_unversioned_files" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.packt.learnjava.ch07_libraries" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.packt.learnjava.ch16_microservices" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -335,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ControlFlow">
+  <component name="RunManager">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -354,95 +208,10 @@
     <configuration name="ControlFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch01_start.ControlFlow" />
       <module name="learnjava" />
-      <option name="VM_PARAMETERS" value="--enable-preview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.packt.learnjava.ch01_start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch11_network.HttpClientDemo" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch11_network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch05_stringsIoStreams.InputOutputStream" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch05_stringsIoStreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceExamples" type="Application" factoryName="Application" singleton="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch02_oop.InterfaceExamples" />
-      <module name="learnjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch03_fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch13_functional.LambdaExpressions" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch13_functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OtherEffects" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch12_gui.OtherEffects" />
-      <module name="learnjava" />
-      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch12_gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TerminalOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.packt.learnjava.ch14_streams.TerminalOps" />
-      <module name="learnjava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.packt.learnjava.ch14_streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,457 +232,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.InterfaceExamples" />
-      <item itemvalue="Application.OtherEffects" />
-      <item itemvalue="Application.InputOutputStream" />
-      <item itemvalue="Application.LambdaExpressions" />
-      <item itemvalue="Application.HttpClientDemo" />
-      <item itemvalue="Application.TerminalOps" />
-      <item itemvalue="Application.ControlFlow" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ControlFlow" />
-        <item itemvalue="Application.TerminalOps" />
-        <item itemvalue="Application.LambdaExpressions" />
-        <item itemvalue="Application.HttpClientDemo" />
-        <item itemvalue="Application.InputOutputStream" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dca6afce-881d-4f13-a6c7-26021948310e" name="Default Changelist" comment="" />
-      <created>1542648897194</created>
+      <changelist id="cd3b387c-d984-4137-9178-ef1a15e28e38" name="Default Changelist" comment="" />
+      <created>1555005833698</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542648897194</updated>
+      <updated>1555005833698</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 16h 41m 57s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 16h 51m 37s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 16h 53m 12s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 16h 53m 33s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 16h 54m 08s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 16h 54m 33s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SomeClassTest_multiplyByTwoTheValueFromSomeOtherClass - 2018.12.27 at 17h 03m 33s.xml">
-      <configuration name="SomeClassTest.multiplyByTwoTheValueFromSomeOtherClass" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="31" y="-1027" width="1645" height="1012" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.22344323" />
-      <window_info id="Structure" order="1" sideWeight="0.5018382" side_tool="true" weight="0.2253109" />
-      <window_info id="Project Explorer" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Job Explorer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32874617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824704" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32189348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975278" visible="true" weight="0.2998955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39696586" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25641027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296433" />
-      <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5012361" side_tool="true" weight="0.32441473" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49876392" weight="0.32426035" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" weight="0.4006116" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49682036" weight="0.36238533" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32998884" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.328125" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.3291874" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32938242" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-rx-java/3.6.3/vertx-rx-java-3.6.3.jar!/io/vertx/rxjava/ext/web/Router.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/text/NumberFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/vertxeventbus/MessageSndVert.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-rx-java/3.6.3/vertx-rx-java-3.6.3.jar!/io/vertx/rxjava/ext/web/handler/BodyHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/PeriodicSrvVert.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-rx-java/3.6.3/vertx-rx-java-3.6.3.jar!/io/vertx/rxjava/core/http/HttpServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="126" column="28" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/git/portmeister/src/main/java/com/centurylink/sdf/portmeister/verticle/Portmeister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="145" column="71" lean-forward="true" selection-start-line="145" selection-start-column="71" selection-end-line="145" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-rx-java/3.6.3/vertx-rx-java-3.6.3.jar!/io/vertx/rxjava/core/Vertx.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-rx-java/3.6.3/vertx-rx-java-3.6.3.jar!/io/vertx/rxjava/core/RxHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch17_microbenchmark/BenchmarkLoop.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/ReactiveSystemDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/MessageRcvVert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../JavaRx3/FirstEdition/Learning-RxJava/Chapter12/ch12_1.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch17_microbenchmark/BenchmarkDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/ObjectsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/ArraysUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch06_collections/CollectionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/MeasuringSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" selection-start-line="37" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch16_microservices/HttpServerVert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="63" column="5" selection-start-line="53" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#6754#6755#0" expanded="true" />
-            <element signature="e#6790#6791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/Ch2_13.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/EqualsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch18_bestpractices/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="2" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/StringClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/Operators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch15_reactive/Scheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/ConsoleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch10_database/CallableStatementDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="5" selection-start-line="21" selection-start-column="19" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="129" column="70" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/Strings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch05_stringsIoStreams/InputOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="284" column="24" selection-start-line="284" selection-start-column="24" selection-end-line="284" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch12_gui/BlendEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/packt.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch11_network/HttpClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="216" column="40" selection-start-line="216" selection-start-column="40" selection-end-line="216" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/MethodReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/StandardFunctionalInterfaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch13_functional/LambdaExpressions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/NumericStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch14_streams/TerminalOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="254">
+          <caret line="1356" column="16" selection-start-line="1356" selection-start-column="16" selection-end-line="1356" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/ControlFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="765">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packt/learnjava/ch01_start/PrimitiveTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="120" column="102" lean-forward="true" selection-start-line="120" selection-start-column="102" selection-end-line="120" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,7 +362,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -993,7 +374,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: commons-codec:commons-codec:1.11</last-edited>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
