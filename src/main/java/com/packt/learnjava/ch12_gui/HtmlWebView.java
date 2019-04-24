@@ -146,7 +146,7 @@ public class HtmlWebView extends Application {
     public void start11(Stage primaryStage) {
 
         Text txt1 = new Text("What a beautiful music!");
-        Text txt2 = new Text("If you don't here music, turn up the volume.");
+        Text txt2 = new Text("If you don't hear music, turn up the volume.");
 
         File f = new File("src/main/resources/jb.mp3");
         Media m = new Media(f.toURI().toString());
@@ -203,7 +203,7 @@ public class HtmlWebView extends Application {
     public void start13(Stage primaryStage) {
 
         Text txt1 = new Text("What a beautiful movie and sound!");
-        Text txt2 = new Text("If you don't here music, turn up the volume.");
+        Text txt2 = new Text("If you don't hear music, turn up the volume.");
 
         File fs = new File("src/main/resources/jb.mp3");
         Media ms = new Media(fs.toURI().toString());
