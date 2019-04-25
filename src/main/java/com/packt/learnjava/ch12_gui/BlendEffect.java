@@ -31,10 +31,31 @@ public class BlendEffect extends Application {
         System.out.println("Doing what has to be done before closing");
     }
 
+  /*
+     Before running any of the following start() methods, make sure to do these two steps:
+
+      1) Download JavaFX SDK for your OS (from https://gluonhq.com/products/javafx/)
+      and unzip it in any directory.
+
+      2) Assuming you have unzipped JavaFX SDK into the folder /path/JavaFX/,
+       add the following options to the Java command that launches this class:
+
+        --module-path /path/JavaFX/lib
+        --add-modules=javafx.controls,javafx.fxml
+
+        If you run it from IDE, add these VM options to Run Configuration.
+    */
+
     // To run examples, remove the number
-    // from the name of one of the start() methods below.
+    // from the name of one of the start() methods below
+    // and put this number to the name of the start() method
+    // that is currently without number. For example,
+    // execute this class as-is, then
+    // rename start1() to start() and start() to start1()
+    // and execute this class again, so on.
+
     // Currently, the uncommented start() method demonstrates
-    // of all the modes of the Blend effect.
+    // all the modes of the Blend effect.
     // So, run the application as-is if you would like to see the demo.
 
     //Set effect/mode on the node

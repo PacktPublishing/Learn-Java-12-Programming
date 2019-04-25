@@ -25,15 +25,13 @@ public class HtmlWebView extends Application {
     }
 
     /*
-     Before removing numbers 8, 9, 10, 11, 12, or 13 from the name
-     of one of the following start() methods, make user to do these two steps:
+     Before running any of the following start() methods, make sure to do these two steps:
 
       1) Download JavaFX SDK for your OS (from https://gluonhq.com/products/javafx/)
       and unzip it in any directory.
 
       2) Assuming you have unzipped JavaFX SDK into the folder /path/JavaFX/,
-       add the following options to the Java command that launches
-       the HelloWorld main class:
+       add the following options to the Java command that launches this class:
 
         --module-path /path/JavaFX/lib
         --add-modules=javafx.controls,javafx.fxml
@@ -57,8 +55,38 @@ public class HtmlWebView extends Application {
         --add-exports javafx.graphics/com.sun.javafx.iio=ALL-UNNAMED
         --add-exports javafx.graphics/com.sun.scenario.effect.impl.prism=ALL-UNNAMED
         --add-exports javafx.graphics/com.sun.javafx.scene.text=ALL-UNNAMED
+
+       If you run it from IDE, add these VM options to Run Configuration.
     */
+
+    // To run examples, remove the number
+    // from the name of one of the start() methods below
+    // and put this number to the name of the start() method
+    // that is currently without number. For example,
+    // execute this class as-is, then
+    // rename start8() to start() and start() to start8()
+    // and execute this class again, so on.
+
     public void start(Stage primaryStage) {
+        try {
+            WebView wv = new WebView();
+            WebEngine we = wv.getEngine();
+            String html = "<html><center><h2>Hello, world!</h2></center></html>";
+            we.loadContent(html, "text/html");
+
+            Scene scene = new Scene(wv, 200, 60);
+
+            primaryStage.setTitle("My HTML page");
+            primaryStage.setScene(scene);
+            primaryStage.onCloseRequestProperty()
+                    .setValue(e -> System.out.println("Bye! See you later!"));
+            primaryStage.show();
+        } catch (Exception ex){
+            ex.printStackTrace();
+        }
+    }
+
+    public void start8(Stage primaryStage) {
         try {
             Text txt = new Text("Below is the embedded HTML:");
 
