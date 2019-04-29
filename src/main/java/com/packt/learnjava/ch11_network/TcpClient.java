@@ -6,6 +6,8 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
+
+// Can be run only after TcpServer is started
 public class TcpClient {
     public static void main(String[] args) {
         try(Socket s = new Socket("localhost",3333);

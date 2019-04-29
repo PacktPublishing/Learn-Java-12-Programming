@@ -14,7 +14,7 @@ import java.util.Set;
 public class Connect {
     public static void main(String... args) {
         //Uncomment the following code only after
-        // the database learnjava and table person are created
+        // the database learnjava is created
 /*
         driverManager();
         dataSourceSimple();
