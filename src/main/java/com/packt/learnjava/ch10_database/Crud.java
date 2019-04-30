@@ -11,6 +11,8 @@ public class Crud {
     public static void main(String... args) {
         //Uncomment the following code only after
         // the database learnjava and table person are created
+        //To create table person, first connect to the database
+        // using the following psql command: \c learnjava
 /*
         execute();
         executeQuery();
