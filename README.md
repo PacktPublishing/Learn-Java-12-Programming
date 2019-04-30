@@ -66,6 +66,8 @@ graduated from Moscow Institute of Physics and Technology, working as a theoreti
 ## Other books by the authors
 [](https://www.packtpub.com/application-development/introduction-programming?utm_source=github&utm_medium=repository&utm_campaign=)
 
+[Introduction to Programming](https://prod.packtpub.com/in/application-development/introduction-programming)
+
 [Java 11 Cookbook - Second Edition](https://www.packtpub.com/application-development/java-11-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789132359)
 
 ### Suggestions and Feedback
