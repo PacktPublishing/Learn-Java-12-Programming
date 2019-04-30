@@ -1,15 +1,27 @@
-# 
+# Learn Java 12 Programming
 
 <a href="https://www.packtpub.com/application-development/learn-java-12-programming?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="" height="256px" align="right"></a>
+
 This is the code repository for [](https://www.packtpub.com/application-development/learn-java-12-programming?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
 
 **A step-by-step guide to learning essential concepts in Java SE 10, 11, and 12**
 
 ## What is this book about?
+Java and its new features add to the richness of the language. It is the preferred language for many of today’s leading-edge technologies, everything from smartphones and game consoles to robots, massive enterprise systems, and supercomputers. Java 12 programming is your one-stop guide to learning the language and all its latest features.
 
 This book covers the following exciting features:
-* If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789957052) today! 
-* <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+* Learn and apply object-oriented principles
+* Gain insights into data structures and understand how they are used in Java
+* Explore multithreaded, asynchronous, functional, and reactive programming
+* Add a user-friendly graphic interface to your application
+* Find out what streams are and how they can help in data processing
+* Discover the importance of microservices and use them to make your apps robust and scalable
+* Explore Java design patterns and best practices to solve everyday problems
+* Learn techniques and idioms for writing high-quality Java code
+ 
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789957052) today! 
+
+  <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
@@ -39,7 +51,6 @@ With the following software and hardware list you can run all code files present
 | 15 | RxJava Library | Windows, Mac OS X, and Linux (Any) |
 | 16 | Vert.x Development Kit | Windows, Mac OS X, and Linux (Any) |
 | 17 | Java Microbenchmark Harness | Windows, Mac OS X, and Linux (Any) |
-|  |  |  |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789957051_ColorImages.pdf).
 
