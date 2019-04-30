@@ -1,6 +1,6 @@
 # Learn Java 12 Programming
 
-<a href="https://www.packtpub.com/application-development/learn-java-12-programming?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/learn-java-12-programming?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://prod.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/1/b12965_mockupcover.png" height="256px" align="right"></a>
 
 This is the code repository for [](https://www.packtpub.com/application-development/learn-java-12-programming?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
 
