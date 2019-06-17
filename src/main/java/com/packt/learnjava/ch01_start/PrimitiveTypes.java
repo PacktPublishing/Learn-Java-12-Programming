@@ -118,6 +118,8 @@ public class PrimitiveTypes {
     }
 
     private static void newInJava12(){
+
+        System.out.println("\nNew compact number format:");
         NumberFormat fmt = NumberFormat.getCompactNumberInstance(Locale.US, NumberFormat.Style.SHORT);
         System.out.println(fmt.format(42_000));      //prints: 42K
         System.out.println(fmt.format(42_000_000));  //prints: 42M
@@ -130,10 +132,12 @@ public class PrimitiveTypes {
         // --enable-preview
         // to javac and java commands
 /*
+        System.out.println("\nSwitch statement with lambda-like format:");
         switchDemo1(1);    //prints: 1 or 3: 1
         switchDemo1(2);    //prints: Not 1,3,4,5,6: 2
         switchDemo1(5);    //prints: 5 or 6: 5
 
+        System.out.println("\nSwitch statement that returns value:");
         switchDemo2(0);    //prints: false
         switchDemo2(1);    //prints: true
         switchDemo2(2);    //prints: false
