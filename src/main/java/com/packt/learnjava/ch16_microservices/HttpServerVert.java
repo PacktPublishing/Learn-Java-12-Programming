@@ -29,7 +29,7 @@ public class HttpServerVert extends AbstractVerticle {
         String address = ctx.pathParam("address");
         String value = ctx.pathParam("anotherParam");
         System.out.println("\n" + name + ": " + caller + " called.");
-        vertx.eventBus().rxSend(address, caller + " called with value " + value).toObservable()
+        vertx.eventBus().rxRequest(address, caller + " called with value " + value).toObservable()
             .subscribe(reply -> {
                 System.out.println(name + ": got message\n    " + reply.body());
                 ctx.response().setStatusCode(200).end(reply.body().toString() + "\n");
@@ -43,7 +43,7 @@ public class HttpServerVert extends AbstractVerticle {
             String caller = payload.getString("name");
             String address = payload.getString("address");
             String value = payload.getString("anotherParam");
-            vertx.eventBus().rxSend(address, caller + " called with value " + value).toObservable()
+            vertx.eventBus().rxRequest(address, caller + " called with value " + value).toObservable()
                 .subscribe(reply -> {
                     System.out.println(name + ": got message\n    " + reply.body());
                     ctx.response().setStatusCode(200).end(reply.body().toString() + "\n");
