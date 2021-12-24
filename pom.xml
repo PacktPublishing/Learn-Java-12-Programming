@@ -92,17 +92,17 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>16</version>
+            <version>17</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>16</version>
+            <version>17</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
-            <version>16</version>
+            <version>17</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
@@ -117,12 +117,12 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web</artifactId>
-            <version>4.1.4</version>
+            <version>4.2.3</version>
         </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-rx-java</artifactId>
-            <version>4.1.4</version>
+            <version>4.2.3</version>
         </dependency>
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
@@ -132,7 +132,7 @@
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-generator-annprocess</artifactId>
-            <version>1.33</version>
+            <version>1.34</version>
         </dependency>
 
     </dependencies>
